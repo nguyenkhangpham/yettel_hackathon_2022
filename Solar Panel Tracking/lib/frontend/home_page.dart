@@ -499,7 +499,8 @@ class _HomePageState extends State<HomePage> {
       ),
       borderData: FlBorderData(
           show: true,
-          border: Border.all(color: const Color(0xff37434d), width: 1)),
+          border:
+              Border.all(color: Color.fromARGB(255, 31, 128, 143), width: 1)),
       minX: 0,
       maxX: y.length.toDouble() - 1,
       minY: 0,
@@ -527,7 +528,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
     return Scaffold(
-        backgroundColor: const Color.fromRGBO(15, 34, 97, 100),
+        backgroundColor: const Color.fromARGB(255, 56, 160, 192),
         body: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: SafeArea(
@@ -568,7 +569,7 @@ class _HomePageState extends State<HomePage> {
                     width: double.infinity,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
-                      color: const Color.fromRGBO(26, 57, 140, 100),
+                      color: Color.fromARGB(156, 26, 117, 140),
                     ),
                     child: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -651,7 +652,7 @@ class _HomePageState extends State<HomePage> {
                                         end: Alignment.bottomRight,
                                         colors: [
                                           Color.fromARGB(156, 17, 184, 156),
-                                          Color.fromARGB(156, 11, 102, 57)
+                                          Color.fromARGB(255, 56, 160, 192)
                                         ]),
                                     borderRadius: BorderRadius.all(
                                       Radius.circular(18),
@@ -992,9 +993,9 @@ class _HomePageState extends State<HomePage> {
                                       begin: Alignment.topLeft,
                                       end: Alignment.bottomRight,
                                       colors: [
-                                        Color.fromRGBO(133, 138, 255, 100),
-                                        Color.fromRGBO(176, 133, 255, 100),
-                                        Color.fromRGBO(192, 133, 255, 100)
+                                        Color.fromARGB(255, 42, 174, 179),
+                                        Color.fromARGB(255, 56, 160, 192),
+                                        Color.fromARGB(255, 13, 109, 138)
                                       ]),
                                   borderRadius: BorderRadius.circular(20)),
                               margin:
@@ -1005,7 +1006,8 @@ class _HomePageState extends State<HomePage> {
                                 iconEnabledColor: Colors.white,
                                 style: const TextStyle(
                                     color: Colors.white, fontSize: 16),
-                                dropdownColor: const Color(0xFF5036D5),
+                                dropdownColor:
+                                    Color.fromARGB(255, 13, 109, 138),
                                 focusColor: Colors.black,
                                 value: initialValue,
                                 icon: const Icon(Icons.keyboard_arrow_down),
@@ -1044,12 +1046,12 @@ class _HomePageState extends State<HomePage> {
                                                   begin: Alignment.topLeft,
                                                   end: Alignment.bottomRight,
                                                   colors: [
-                                                    Color.fromRGBO(
-                                                        133, 138, 255, 100),
-                                                    Color.fromRGBO(
-                                                        176, 133, 255, 100),
-                                                    Color.fromRGBO(
-                                                        192, 133, 255, 100)
+                                                    Color.fromARGB(
+                                                        255, 42, 174, 179),
+                                                    Color.fromARGB(
+                                                        255, 56, 160, 192),
+                                                    Color.fromARGB(
+                                                        255, 13, 109, 138)
                                                   ]),
                                               borderRadius:
                                                   BorderRadius.circular(20)),
@@ -1086,12 +1088,12 @@ class _HomePageState extends State<HomePage> {
                                                   begin: Alignment.topLeft,
                                                   end: Alignment.bottomRight,
                                                   colors: [
-                                                    Color.fromRGBO(
-                                                        133, 138, 255, 100),
-                                                    Color.fromRGBO(
-                                                        176, 133, 255, 100),
-                                                    Color.fromRGBO(
-                                                        192, 133, 255, 100)
+                                                    Color.fromARGB(
+                                                        255, 42, 174, 179),
+                                                    Color.fromARGB(
+                                                        255, 56, 160, 192),
+                                                    Color.fromARGB(
+                                                        255, 13, 109, 138)
                                                   ]),
                                               borderRadius:
                                                   BorderRadius.circular(20)),
@@ -1105,8 +1107,8 @@ class _HomePageState extends State<HomePage> {
                                               style: const TextStyle(
                                                   color: Colors.white,
                                                   fontSize: 17),
-                                              dropdownColor:
-                                                  const Color(0xFF5036D5),
+                                              dropdownColor: Color.fromARGB(
+                                                  255, 13, 109, 138),
                                               focusColor: Colors.white,
                                               value: initialTimeRange,
                                               icon: const Icon(
@@ -1167,7 +1169,7 @@ class _HomePageState extends State<HomePage> {
                                             ),
                                           ),
                                           child: Column(children: [
-                                            const SizedBox(height: 45),
+                                            const SizedBox(height: 50),
                                             Wrap(
                                                 crossAxisAlignment:
                                                     WrapCrossAlignment.center,
@@ -1195,7 +1197,7 @@ class _HomePageState extends State<HomePage> {
                                                             1000)
                                                         .toStringAsFixed(2),
                                                 style: const TextStyle(
-                                                  fontSize: 40,
+                                                  fontSize: 32,
                                                   color: Colors.white,
                                                   fontWeight: FontWeight.bold,
                                                 )),
@@ -1220,7 +1222,7 @@ class _HomePageState extends State<HomePage> {
                                                             .toString() +
                                                         " W",
                                                     style: const TextStyle(
-                                                      fontSize: 40,
+                                                      fontSize: 32,
                                                       color: Colors.white,
                                                       fontWeight:
                                                           FontWeight.bold,
@@ -1246,7 +1248,7 @@ class _HomePageState extends State<HomePage> {
                                                             .toString() +
                                                         " %",
                                                     style: const TextStyle(
-                                                      fontSize: 40,
+                                                      fontSize: 32,
                                                       color: Colors.white,
                                                       fontWeight:
                                                           FontWeight.bold,
