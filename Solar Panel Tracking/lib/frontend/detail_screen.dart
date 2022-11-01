@@ -13,7 +13,7 @@ class DetailsScreen extends StatelessWidget {
           toolbarHeight: 30,
           backgroundColor: Colors.transparent,
         ),
-        backgroundColor: const Color(0xff0B1329),
+        backgroundColor: Color.fromARGB(255, 56, 160, 192),
         body: SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
             child: SafeArea(
@@ -41,7 +41,7 @@ class DetailsScreen extends StatelessWidget {
                       top: MediaQuery.of(context).size.height * 0.3),
                   width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color(0xff0B1329),
+                    color: Color.fromARGB(255, 33, 109, 133),
                     borderRadius: BorderRadius.circular(50),
                   ),
                   child: Padding(
@@ -61,9 +61,9 @@ class DetailsScreen extends StatelessWidget {
                             children: [
                               const Padding(
                                 padding: EdgeInsets.only(left: 20),
-                                child: Text("What is Shine?",
+                                child: Text("What is Solar Panel Tracking App?",
                                     style: TextStyle(
-                                        fontSize: 24,
+                                        fontSize: 40,
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold)),
                               ),
@@ -71,10 +71,10 @@ class DetailsScreen extends StatelessWidget {
                               const Padding(
                                 padding: EdgeInsets.only(left: 20, right: 25),
                                 child: Text(
-                                    "Solar Panel Tracking App is a mobile application designed to be user-friendly for anyone to access useful information about the sunshine. It comes with a clean design that elevates the user experience by providing a well-organized dashboard packed with all the information that our users need. There’s solar irradiance, wind speed, temperature, humidity and so much more just on a single page. ",
+                                    "Solar Panel Tracking App is a mobile application designed to be user-friendly for anyone to access useful information about the weather conditions related to solar panel effeciency. There’s solar irradiance, wind speed, temperature, humidity and so much more just on a single page. ",
                                     style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.white70,
+                                      fontSize: 24,
+                                      color: Colors.white,
                                     )),
                               ),
                               Padding(
@@ -86,34 +86,29 @@ class DetailsScreen extends StatelessWidget {
                                   children: const [
                                     Text('How does it works?',
                                         style: TextStyle(
-                                          fontSize: 18,
+                                          fontSize: 32,
                                           color: Colors.white,
                                         )),
-                                    Text('01',
-                                        style: TextStyle(
-                                          fontSize: 17,
-                                          color: Colors.white38,
-                                        ))
                                   ],
                                 ),
                               ),
                               const Padding(
                                 padding: EdgeInsets.only(left: 20, right: 25),
                                 child: Text(
-                                    "Once we clicked into the app, we could see a gorgeous opening screen and some introduction. After you click “Done”, it will bring you to our main page and automatically detect your location. Now you have your location, now here’s the most important data: Solar Irradiance. And moving on, you can access info like wind speed, temperature, humidity and cloud around in this clean interface.",
+                                    "Once we clicked into the app, we could see a gorgeous opening screen and some introduction. After you click “Done”, it will bring you to our main page and automatically detect your location. Application based on user's latitude and longitude to retrieve data from NASA POWER | Prediction Of Worldwide Energy Resources - a large and authoritative data source from NASA that displays information about the most important data: Solar Irradiance. And moving on, you can access info like wind speed, temperature, humidity and cloud around in this clean interface.",
                                     style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.white70,
+                                      fontSize: 24,
+                                      color: Colors.white,
                                     )),
                               ),
                               const SizedBox(height: 20),
                               const Padding(
                                 padding: EdgeInsets.only(left: 20, right: 25),
                                 child: Text(
-                                    "We know our users care about money too, that’s why we added this estimated savings at the end of our main page. We perform some calculations by calculating the amount generated with your efficiency of solar panels and solar irradiance. It’s so much easier to access now!",
+                                    "We know our users care about result and the efficiency too, that’s why we added this estimated savings at the end of our main page. We perform some calculations by calculating the amount generated with your efficiency of solar panels and solar irradiance and also thanks to the tracking system using Equatorial mount. It’s so much easier to access now!",
                                     style: TextStyle(
-                                      fontSize: 15,
-                                      color: Colors.white70,
+                                      fontSize: 24,
+                                      color: Colors.white,
                                     )),
                               ),
                             ],
