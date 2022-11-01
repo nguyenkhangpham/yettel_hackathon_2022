@@ -1,6 +1,7 @@
 # yettel_hackathon_2022
 Project about solving "Energy efficiency in office and home" challenge
 # Solar Panel Tracking System
+![image](./assets/images/demo.png)
 ## High Level Summary 
 - The Earth intercepts a lot of solar power, 173 thousand terawatts,  however, a lot of useful information associated with solar energy is not commonly known by the general public, especially homeowners. Hence, this is why we created a new system which is a combination of a equatorial mount for tracking the sun and the solar panel tracking mobile application that simplifies NASA’s data in dashboard that allows homeowners to easily gain access to meteorological data, monitor the electrical output, estimate future electrical savings, and so on.
 ## How does it work?
