@@ -13,6 +13,8 @@ Project about solving "Energy efficiency in office and home" challenge
 - Our app aims to motivate people and companies to save energy and reduce energy consumption at homes and in the offices. And also support municipalities, industries and organizations to save energy and transition to green energy, especially to solve the problem of gas and heating - one of Europe's important problems today.
 ## Data Source
 - NASA POWER API service - To get all the data we need to be displayed in the app.
+## Video source
+- https://www.youtube.com/watch?v=mflBW3qSRKE
 ## References
 - https://doi.org/10.1155/2021/6679576 (Biaxial Equatorial Solar Tracker with High Precision and Low Consumption: Modelling and Realization).
 ## Coding Languages
