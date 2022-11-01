@@ -71,7 +71,7 @@ class DetailsScreen extends StatelessWidget {
                               const Padding(
                                 padding: EdgeInsets.only(left: 20, right: 25),
                                 child: Text(
-                                    "Solar Panel Tracking App is a mobile application designed to be user-friendly for anyone to access useful information about the weather conditions related to solar panel effeciency. There’s solar irradiance, wind speed, temperature, humidity and so much more just on a single page. ",
+                                    "Solar Panel Tracking App is a mobile application designed to be user-friendly for anyone to access useful information about the weather conditions related to solar panel efficiency. There’s solar irradiance, wind speed, temperature, humidity and so much more just on a single page. ",
                                     style: TextStyle(
                                       fontSize: 24,
                                       color: Colors.white,
