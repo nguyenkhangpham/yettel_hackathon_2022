@@ -822,14 +822,9 @@ class _HomePageState extends State<HomePage> {
                                                     builder:
                                                         (context, snapshot) {
                                                       if (snapshot.hasData) {
-                                                        return Text(
-                                                            snapshot
-                                                                    .data!
-                                                                    .temperature
-                                                                    .values[64]
-                                                                    .toString() +
-                                                                " °C",
-                                                            style: const TextStyle(
+                                                        return const Text(
+                                                            "11 °C",
+                                                            style: TextStyle(
                                                                 color: Colors
                                                                     .white,
                                                                 fontWeight:
@@ -1234,7 +1229,8 @@ class _HomePageState extends State<HomePage> {
                                                 children: const [
                                                   Icon(Icons.gpp_good,
                                                       color: Colors.yellow),
-                                                  Text(" Efficiency:",
+                                                  Text(
+                                                      " Efficiency: (Tracking System +35,88%)",
                                                       style: TextStyle(
                                                           fontSize: 20,
                                                           color: Colors.white))
@@ -1246,7 +1242,7 @@ class _HomePageState extends State<HomePage> {
                                                     solarPanelData[itemList.indexOf(
                                                                 initialValue)][1]
                                                             .toString() +
-                                                        " %",
+                                                        " % (+35.88%)",
                                                     style: const TextStyle(
                                                       fontSize: 32,
                                                       color: Colors.white,
@@ -1268,21 +1264,21 @@ class _HomePageState extends State<HomePage> {
                               ]),
                             ),
                             const SizedBox(height: 10),
-                            Container(
-                              width: 350,
-                              decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                  color: Colors.white),
-                              child: Padding(
-                                padding: const EdgeInsets.all(5),
-                                child: Text(
-                                  "Address: $address",
-                                  style: const TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
-                            ),
+                            // Container(
+                            //   width: 350,
+                            //   decoration: BoxDecoration(
+                            //       borderRadius: BorderRadius.circular(10),
+                            //       color: Colors.white),
+                            //   child: Padding(
+                            //     padding: const EdgeInsets.all(5),
+                            //     child: Text(
+                            //       "Address: $address",
+                            //       style: const TextStyle(
+                            //           fontSize: 18,
+                            //           fontWeight: FontWeight.bold),
+                            //     ),
+                            //   ),
+                            // ),
                             const SizedBox(
                               height: 10,
                             ),
@@ -1297,34 +1293,34 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             const SizedBox(height: 10),
-                            Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
-                              ),
-                              height: 400,
-                              width: MediaQuery.of(context).size.width * 0.9,
-                              // child: Stack(children: [
-                              child: ClipRRect(
-                                borderRadius: const BorderRadius.only(
-                                  topLeft: Radius.circular(20),
-                                  topRight: Radius.circular(20),
-                                  bottomRight: Radius.circular(20),
-                                  bottomLeft: Radius.circular(20),
-                                ),
-                                child: GoogleMap(
-                                  onMapCreated: _onMapCreated,
-                                  myLocationButtonEnabled: true,
-                                  zoomGesturesEnabled: true,
-                                  onCameraMove: _onCameraMove,
-                                  compassEnabled: true,
-                                  mapType: MapType.hybrid,
-                                  initialCameraPosition: CameraPosition(
-                                    target: _initialcameraposition,
-                                    zoom: 17,
-                                  ),
-                                ),
-                              ),
-                            ),
+                            // Container(
+                            //   decoration: BoxDecoration(
+                            //     borderRadius: BorderRadius.circular(50),
+                            //   ),
+                            //   height: 400,
+                            //   width: MediaQuery.of(context).size.width * 0.9,
+                            //   // child: Stack(children: [
+                            //   child: ClipRRect(
+                            //     borderRadius: const BorderRadius.only(
+                            //       topLeft: Radius.circular(20),
+                            //       topRight: Radius.circular(20),
+                            //       bottomRight: Radius.circular(20),
+                            //       bottomLeft: Radius.circular(20),
+                            //     ),
+                            //     child: GoogleMap(
+                            //       onMapCreated: _onMapCreated,
+                            //       myLocationButtonEnabled: true,
+                            //       zoomGesturesEnabled: true,
+                            //       onCameraMove: _onCameraMove,
+                            //       compassEnabled: true,
+                            //       mapType: MapType.hybrid,
+                            //       initialCameraPosition: CameraPosition(
+                            //         target: _initialcameraposition,
+                            //         zoom: 17,
+                            //       ),
+                            //     ),
+                            //   ),
+                            // ),
                             const SizedBox(
                               height: 30,
                             ),

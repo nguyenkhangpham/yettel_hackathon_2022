@@ -95,7 +95,7 @@ class DetailsScreen extends StatelessWidget {
                               const Padding(
                                 padding: EdgeInsets.only(left: 20, right: 25),
                                 child: Text(
-                                    "Once we clicked into the app, we could see a gorgeous opening screen and some introduction. After you click “Done”, it will bring you to our main page and automatically detect your location. Application based on user's latitude and longitude to retrieve data from NASA POWER | Prediction Of Worldwide Energy Resources - a large and authoritative data source from NASA that displays information about the most important data: Solar Irradiance. And moving on, you can access info like wind speed, temperature, humidity and cloud around in this clean interface.",
+                                    "Once you clicked into the app, you could see a opening screen and some introduction. After you click “Done”, it will bring you to our main page and automatically detect your location. Application based on user's latitude and longitude to retrieve data from NASA POWER | Prediction Of Worldwide Energy Resources - a large and authoritative data source from NASA that displays information about the most important data: Solar Irradiance. And moving on, you can access info like wind speed, temperature, humidity and cloud around in this clean interface.",
                                     style: TextStyle(
                                       fontSize: 24,
                                       color: Colors.white,
