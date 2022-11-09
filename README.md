@@ -1,7 +1,7 @@
 # yettel_hackathon_2022
-Project about solving "Energy efficiency in office and home" challenge
+Project about solving "Energy efficiency in office and home" challenge.
 # Solar Panel Tracking System
-![image](Solar Panel Tracking/assets/images/demo.png)
+![image](./demo.png)
 ## High Level Summary 
 - The Earth intercepts a lot of solar power, 173 thousand terawatts,  however, a lot of useful information associated with solar energy is not commonly known by the general public, especially homeowners. Hence, this is why we created a new system which is a combination of a equatorial mount for tracking the sun and the solar panel tracking mobile application that simplifies NASA’s data in dashboard that allows homeowners to easily gain access to meteorological data, monitor the electrical output, estimate future electrical savings, and so on.
 ## How does it work?
@@ -13,6 +13,8 @@ Project about solving "Energy efficiency in office and home" challenge
 - Our app aims to motivate people and companies to save energy and reduce energy consumption at homes and in the offices. And also support municipalities, industries and organizations to save energy and transition to green energy, especially to solve the problem of gas and heating - one of Europe's important problems today.
 ## Data Source
 - NASA POWER API service - To get all the data we need to be displayed in the app.
+## Video source
+- https://www.youtube.com/watch?v=mflBW3qSRKE
 ## References
 - https://doi.org/10.1155/2021/6679576 (Biaxial Equatorial Solar Tracker with High Precision and Low Consumption: Modelling and Realization).
 ## Coding Languages
