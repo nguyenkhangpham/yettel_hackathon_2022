@@ -1178,10 +1178,8 @@ class _HomePageState extends State<HomePage> {
                                                 ]),
                                             const SizedBox(height: 5),
                                             Text(
-                                                "Euro " +
-                                                    (solarPanelData[itemList
-                                                                    .indexOf(
-                                                                        initialValue)]
+                                                (solarPanelData[itemList.indexOf(
+                                                                    initialValue)]
                                                                 [0] *
                                                             0.18 *
                                                             12 *
@@ -1191,7 +1189,8 @@ class _HomePageState extends State<HomePage> {
                                                                 .indexOf(
                                                                     initialTimeRange)] /
                                                             1000)
-                                                        .toStringAsFixed(2),
+                                                        .toStringAsFixed(2) +
+                                                    " Euro",
                                                 style: const TextStyle(
                                                   fontSize: 32,
                                                   color: Colors.white,
@@ -1231,7 +1230,7 @@ class _HomePageState extends State<HomePage> {
                                                   Icon(Icons.gpp_good,
                                                       color: Colors.yellow),
                                                   Text(
-                                                      " Efficiency: (Tracking System 35,88% more)",
+                                                      " Efficiency: ( Tracking System 35,88% more)",
                                                       style: TextStyle(
                                                           fontSize: 20,
                                                           color: Colors.white))
@@ -1243,7 +1242,7 @@ class _HomePageState extends State<HomePage> {
                                                     solarPanelData[itemList.indexOf(
                                                                 initialValue)][1]
                                                             .toString() +
-                                                        " % (35.88% more)",
+                                                        " % ( 35.88% more)",
                                                     style: const TextStyle(
                                                       fontSize: 32,
                                                       color: Colors.white,
