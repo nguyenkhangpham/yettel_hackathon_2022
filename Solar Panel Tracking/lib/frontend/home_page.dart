@@ -1144,7 +1144,7 @@ class _HomePageState extends State<HomePage> {
                                                   .size
                                                   .width *
                                               0.85,
-                                          height: 300,
+                                          height: 1200,
                                           decoration: BoxDecoration(
                                             borderRadius:
                                                 BorderRadius.circular(30),
@@ -1178,13 +1178,14 @@ class _HomePageState extends State<HomePage> {
                                                 ]),
                                             const SizedBox(height: 5),
                                             Text(
-                                                "RM " +
+                                                "Euro " +
                                                     (solarPanelData[itemList
                                                                     .indexOf(
                                                                         initialValue)]
                                                                 [0] *
                                                             0.18 *
                                                             12 *
+                                                            0.21 *
                                                             _time_value *
                                                             time_value[time_range
                                                                 .indexOf(
@@ -1230,7 +1231,7 @@ class _HomePageState extends State<HomePage> {
                                                   Icon(Icons.gpp_good,
                                                       color: Colors.yellow),
                                                   Text(
-                                                      " Efficiency: (Tracking System +35,88%)",
+                                                      " Efficiency: (Tracking System 35,88% more)",
                                                       style: TextStyle(
                                                           fontSize: 20,
                                                           color: Colors.white))
@@ -1242,7 +1243,36 @@ class _HomePageState extends State<HomePage> {
                                                     solarPanelData[itemList.indexOf(
                                                                 initialValue)][1]
                                                             .toString() +
-                                                        " % (+35.88%)",
+                                                        " % (35.88% more)",
+                                                    style: const TextStyle(
+                                                      fontSize: 32,
+                                                      color: Colors.white,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ))),
+                                            const SizedBox(height: 8),
+                                            Wrap(
+                                                crossAxisAlignment:
+                                                    WrapCrossAlignment.center,
+                                                children: const [
+                                                  Icon(Icons.gpp_good,
+                                                      color: Colors.yellow),
+                                                  Text(
+                                                      "Carbon Footprint Reduction (Gram/ Solar Panel/ Day)",
+                                                      style: TextStyle(
+                                                          fontSize: 20,
+                                                          color: Colors.white))
+                                                ]),
+                                            const SizedBox(height: 5),
+                                            Align(
+                                                alignment: Alignment.center,
+                                                child: Text(
+                                                    (solarPanelData[itemList.indexOf(
+                                                                        initialValue)]
+                                                                    [0] *
+                                                                5.18)
+                                                            .toString() +
+                                                        " Gram",
                                                     style: const TextStyle(
                                                       fontSize: 32,
                                                       color: Colors.white,
